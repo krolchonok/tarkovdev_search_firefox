@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "searchengine_rutracker",
+	"version": "0.0.1",
+	"description": "Search Rutracker",
+	"chrome_settings_overrides": {
+	  	"search_provider": {
+			"name": "Tarkov Dev",
+			"search_url": "https://tarkov.dev/?search={searchTerms}",
+			"keyword": "tark",
+			"favicon_url": "https://tarkov.dev/favicon.ico"
+	  	}
+	}
+}
